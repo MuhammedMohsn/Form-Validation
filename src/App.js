@@ -1,6 +1,6 @@
-import './App.css';
-import { Fragment } from 'react';
-import Form from './Components/Form'
+import "./App.css";
+import { Fragment } from "react";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
         <h1>Create Account</h1>
         <div className="form_wrapper">
           <Form />
-        </div></div></Fragment>)}
+        </div>
+      </div>
+    </Fragment>
+  );
+}
 
 export default App;
